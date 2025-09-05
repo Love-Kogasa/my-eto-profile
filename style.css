@@ -1,0 +1,32 @@
+.title {
+  font-size: 24px;
+}
+
+.avatar-container {
+  display: inline-block;
+  border-radius: 50%;
+  width: 5em;
+  height: 5em;
+  overflow: hidden;
+  background-color: #DDDDFF;
+  background-image: url( "trisolaris.png" );
+  background-size: cover;
+}
+
+.avatar {
+  opacity: 0.75;
+}
+
+.container {
+  min-height: 100vh;
+  background-image: url("https://www.earth-trisolaris.org/assets/images/bg.jpg");
+  color: #FFF;
+}
+
+.profile-nav > * {
+  vertical-align: middle;
+}
+
+.hidden {
+  display: none;
+}
